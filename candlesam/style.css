@@ -1,10 +1,25 @@
 /* Style all font awesome icons */
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin: 5px 2px;
 }
 
 /* Add a hover effect if you want */
@@ -20,17 +35,17 @@
     color: white;
 }
 
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
+.fa-youtube {
+    background: #bb0000;
     color: white;
 }
-.fa-youtube {
-  background: #bb0000;
+
+.fa-linkedin {
+  background: #007bb5;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 } 
