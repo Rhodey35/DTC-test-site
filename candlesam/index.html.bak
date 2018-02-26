@@ -7,10 +7,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
-
 <!-- Added icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 </head>
 <body>
 
@@ -28,40 +27,17 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
- <div class="w3-content w3-display-container">
-  <img class="mySlides" src="images/candlelight.jpg" style="width:100%">
-  <img class="mySlides" src="images/style.jpg" style="width:100%">
-  <img class="mySlides" src="images/noflame.jpg" style="width:100%">
-  <img class="mySlides" src="images/occasion.jpg" style="width:100%">
-  
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 4 seconds
-}
-</script>
-
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="images/spring.jpg" alt="whatyoulove" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Candle Sam</b></span> <span class="w3-hide-small w3-text-light-grey">Comfort Candles</span></h1>
+  </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Candles Section -->
+  <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="Candles">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Candles</h3>
   </div>
@@ -118,58 +94,18 @@ function carousel() {
         <img src="images/romanticmeals.jpg" alt="House" style="width:99%">
       </div>
     </div>
+ 
+<iframe width="1200" height="400" src="https://www.youtube.com/embed/vnKJEuylmok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-	
-	<div>
-  <h2>Get to know us better!</h2>
-
-  <div class="left">
-    <button class="btn btn-info btn-lg video" data-video="https://www.youtube.com/embed/vnKJEuylmok" data-toggle="modal" data-target="#videoModal">Meet Samantha</button>
-      <br><br>
-  </div>
-  <div class="main">
-    <button class="btn btn-info btn-lg video" data-video="https://www.youtube.com/embed/vnKJEuylmok" data-toggle="modal" data-target="#videoModal">See how the candles are made.</button>
-      <br><br>
-  </div>
-  <div class="right">
-    <button class="btn btn-info btn-lg video" data-video="https://www.youtube.com/embed/vnKJEuylmok" data-toggle="modal" data-target="#videoModal">Candle video</button>
-      <br><br>
-  </div>
-  </div>
-
-  
-  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
  <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16">About</h3>
-    <p>I have been a PartyLite consultant for over 14 years and I love what I do. I started consulting in Anchorage, Alaska where I first found my passion for PartyLite and comfort candles. As time has gone on I have earned my business degree and IT skills to be more engaging in the digital world. I find that even in todays high tech world everyone can find a little comfort in the warmth that PartyLite candles and warmers bring to life.
+    <p>I have been a PartyLite consultant for over 14 years and I love what I do. I started consulting in Anchorage, Alaska where I first found my passion for PartyLite and comfort candles. As time has gone on I have earned my business degree and IT skills to be more engaging in the digital world. I find that even in todays high tech world everyone can find a little comfort in the warmth that PartyLite candles and warmers bring to life. 
 
-Living in Arizona now for over 7 years I have come to embrace Mesa as my new home and I have set off on my new mission to share my passion with the greater Phoenix community. I was shocked to find how much opportunity there is here from FlagStaff to Tucson! Everyone I meet has a story about how much they love the warmth of the candle glow and how important quality candles are to them. It is for this reason that I have made it my mission to share the news. I am here to help and PartyLite can bring those passions to reality. I want you to share your story with me and I will make your comfort candle dreams come true.
+Living in Arizona now for over 7 years I have come to embrace Mesa as my new home and I have set off on my new mission to share my passion with the greater Phoenix community. I was shocked to find how much opportunity there is here from FlagStaff to Tucson! Everyone I meet has a story about how much they love the warmth of the candle glow and how important quality candles are to them. It is for this reason that I have made it my mission to share the news. I am here to help and PartyLite can bring those passions to reality. I want you to share your story with me and I will make your comfort candle dreams come true. 
     </p>
   </div>
-
-  
-
-  <!-- Contact Section  section removed until functionality can be added -->
-  <div class="w3-container w3-padding-32" id="contact">
-  <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16">Contact</h3>
-
-
-
-
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -187,7 +123,7 @@ Living in Arizona now for over 7 years I have come to embrace Mesa as my new hom
       <p><a href="http://www.partylite.biz/sites/candlesam" class="button">PartyLite</a></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/youtube.jpg" alt="Mike" style="width:100%">
+      <img src="images/mobile.jpg" alt="Mike" style="width:100%">
       <h3>Videos</h3>
       <p class="w3-opacity">Youtube</p>
       <p>Check out my candle tips on Youtube for more ways to help with your candle experience.</p>
@@ -201,33 +137,17 @@ Living in Arizona now for over 7 years I have come to embrace Mesa as my new hom
       <p><a href="https://www.facebook.com/phxcandlesam/" class="button">Facebook</a></p>
     </div>
   </div>
-</div>
+
+  <!-- Contact Section  section removed until functionality can be added -->
 
 <!-- Add font awesome icons -->
-
-<div class="container-fluid">
-  
-  <div class="row">
-    <div class="col-sm-3" style="background-color:blue;">
-   <a href="https://www.facebook.com/phxcandlesam/" class="fa fa-facebook"></a>
-
-   </div>
-    <div class="col-sm-3" style="background-color:red;">
-    <a href="https://www.youtube.com/watch?v=C8UZX6lyPoY" class="fa fa-youtube"></a>
-
-	</div>
-       <div class="col-sm-3" style="background-color:gray;">
-    <a href="https://www.linkedin.com/in/samantha-livingston-a3515832/" class="fa fa-linkedin"></a>
-
-	</div>
-       <div class="col-sm-3" style="background-color:yellow;">
-     <a href="#" class="fa fa-instagram"></a>
-	 </div>
-  </div>
-</div>
-
+<a href="https://www.facebook.com/phxcandlesam/" class="fa fa-facebook"></a>
+<a href="https://www.youtube.com/watch?v=C8UZX6lyPoY" class="fa fa-youtube"></a>
+<a href="https://www.linkedin.com/in/samantha-livingston-a3515832/" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+ 
 <!-- End page content -->
-
+</div>
 
 <!-- Google Map -->
 <div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
@@ -261,23 +181,8 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script>
-  $(function() {
-    $(".video").click(function () {
-      var theModal = $(this).data("target"),
-      videoSRC = $(this).attr("data-video"),
-      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-      $(theModal + ' iframe').attr('src', videoSRCauto);
-      $(theModal + ' button.close').click(function () {
-        $(theModal + ' iframe').attr('src', videoSRC);
-      });
-    });
-  });
-  </script>
-
-
 </body>
 </html>
+
+
+

@@ -1,3 +1,40 @@
+
+
+* {
+  box-sizing: border-box;
+}
+.left {
+  background-color:#f1f1f1;
+  padding:20px;
+  padding-left: 100px;
+  float:left;
+  width:20%;/*The width is 20%, by default*/
+}
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  padding-left: 300px;
+  float:left;
+  width:60%;/*The width is 60%, by default*/
+}
+.right {
+  background-color:#f1f1f1;
+  padding:20px;
+  padding-right: 100px;
+  float:left;
+  width:20%;/*The width is 20%, by default*/
+}
+
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:600px) {
+  .left, .main, .right {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
+
+
+
+
 /* Style all font awesome icons */
 
 .button {
