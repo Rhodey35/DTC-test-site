@@ -12,13 +12,13 @@
 .main {
   background-color:#f1f1f1;
   padding:60px;
-  float:center;
+  float:left;
   width:60%;/*The width is 60%, by default*/
 }
 .right {
   background-color:#f1f1f1;
   padding:30px;
-  float:right;
+  float:left;
   width:20%;/*The width is 20%, by default*/
 }
 
